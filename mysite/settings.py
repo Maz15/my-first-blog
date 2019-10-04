@@ -25,7 +25,7 @@ SECRET_KEY = 'qf&q2oebvv_i&mn^ayli!w3zdewsy-7t89mf70=^v+ru+np9z8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['my-first-blog-isqa-4900-maz.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['my-first-blog-isqa-4900-maz.herokuapp.com','localhost','127.0.0.1']
 
 
 # Application definition
@@ -119,3 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
